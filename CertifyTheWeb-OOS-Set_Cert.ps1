@@ -2,7 +2,7 @@
 # ote that OOS does not have the ability to set certificate by thumbprint.
 # This script enables the use of the newly retrieved and stored certificate with common Office Online Server services
 # For more script info see https://docs.certifytheweb.com/docs/script-hooks.html
-
+param($result)
 Import-Module -Name OfficeWebApps 
 
 $OOSUrl = "ENTER OOS URL"
